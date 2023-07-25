@@ -20,6 +20,9 @@ header {
         font-size: 16px;
         color: white;
         font-weight: 400;
+        &:hover {
+          color: #ffd050;
+        }
       }
     }
     .header-btn {
@@ -30,6 +33,11 @@ header {
       line-height: 24px;
       padding: 16px 48px;
       border: none;
+      background-color: #fff;
+      transition: 0.5s ease;
+      &:hover {
+        background-color: #ffd050;
+      }
       a {
         color: #232536;
       }
@@ -37,26 +45,26 @@ header {
   }
 }
 .res-menu-items {
-    padding-bottom: 10px;
-    .menu-item {
-      line-height: 28px;
-      font-size: 16px;
-      color: #232536;
-      font-weight: 400;
-    }
-  }
-  .header-btn {
+  padding-bottom: 10px;
+  .menu-item {
+    line-height: 28px;
+    font-size: 16px;
     color: #232536;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 12px 36px;
-    border: 2px solid #232536;
-    a {
-      color: #232536;
-    }
+    font-weight: 400;
   }
+}
+.header-btn {
+  color: #232536;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 36px;
+  border: 2px solid #232536;
+  a {
+    color: #232536;
+  }
+}
 .offCanvas {
   color: #232536;
   font-size: 18px;
@@ -72,7 +80,7 @@ header {
   .header-menu {
     display: flex !important;
   }
-   .offCanvas{
-      display: none;
-   }
+  .offCanvas {
+    display: none;
+  }
 }

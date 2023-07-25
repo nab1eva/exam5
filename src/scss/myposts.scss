@@ -37,7 +37,7 @@
   display: flex;
   gap: 40px;
   flex-direction: column;
-  @media(min-width:60px){
+  @media (min-width: 60px) {
     flex-direction: initial;
   }
   img {
@@ -76,22 +76,31 @@
     display: flex;
     flex-direction: column;
   }
-  .post-card-left{
+  .post-card-left {
     width: 100%;
   }
 }
 
 .pagination {
-    padding-top: 100px;
+  padding-top: 100px;
   align-items: center;
   padding-left: 45% !important;
   gap: 10px;
-  button{
+  button {
     padding: 4px 14px;
     border: none;
     color: white;
     background-color: #232536;
     font-size: 20px;
-
   }
+}
+
+.allh3 {
+  color: var(--black, #232536);
+  padding: 54px 0 32px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 133.333% */
+  letter-spacing: -2px;
 }

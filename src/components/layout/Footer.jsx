@@ -14,10 +14,18 @@ const Footer = () => {
             <p>Hello@finsweet.com 020 7993 2905</p>
           </div>
           <div className="footer-socials d-flex align-items-center">
-            <img src={facebook} alt="Facebook" />
-            <img src={twitter} alt="Twitter" />
-            <img src={instagram} alt="Instagram" />
-            <img src={linkedin} alt="LinkedIn" />
+            <a href="https://www.facebook.com/">
+              <img src={facebook} alt="Facebook" />
+            </a>
+            <a href="https://www.twitter.com/">
+              <img src={twitter} alt="Twitter" />
+            </a>
+            <a href="https://www.instagram.com/">
+              <img src={instagram} alt="Instagram" />
+            </a>
+            <a href="https://www.linkedin.com/">
+              <img src={linkedin} alt="LinkedIn" />
+            </a>
           </div>
         </div>
       </div>

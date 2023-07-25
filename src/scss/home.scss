@@ -47,6 +47,9 @@
     font-weight: 700;
     line-height: 24px;
     border: none;
+    &:hover {
+      background-color: #fbf6ea;
+    }
   }
 }
 
