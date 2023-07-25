@@ -1,0 +1,77 @@
+.form-title {
+  h1 {
+    padding: 80px 0 50px;
+    font-size: 48px;
+
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+    text-align: center;
+  }
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  input {
+    padding: 24px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black, #232536);
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    outline: none !important;
+  }
+  button {
+    padding: 16px 0;
+    width: 100%;
+    background: var(--yellow, #ffd050);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    color: var(--black, #232536);
+  }
+}
+
+.account-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .account {
+    input {
+      width: 400px;
+    }
+  }
+}
+
+@media (min-width: 750px) {
+  .account {
+    input {
+      width: 500px;
+    }
+  }
+}
+
+@media (min-width: 850px) {
+  .account {
+    input {
+      width: 600px;
+    }
+  }
+}
+
+@media (min-width: 950px) {
+    .account {
+      input {
+        width: 768px;
+      }
+    }
+  }

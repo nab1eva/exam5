@@ -1,0 +1,37 @@
+.login-form {
+  flex-direction: column;
+  gap: 20px;
+  //   padding: 100px 0;
+  .form-title {
+    h1 {
+      padding: 80px 0 50px;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      color: #232536;
+      text-align: center;
+    }
+  }
+  input {
+    padding: 24px;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black, #232536);
+    border-radius: 2px;
+    border: 1px solid rgba(109, 110, 118, 0.5);
+    outline: none;
+  }
+  button {
+    padding: 16px 0;
+    width: 70%;
+    background: var(--yellow, #ffd050);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    border: none;
+    color: var(--black, #232536);
+  }
+}

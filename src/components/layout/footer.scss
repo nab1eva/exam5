@@ -1,0 +1,23 @@
+footer {
+  background: #232536;
+}
+
+.footer {
+  padding: 20px 0;
+  .footer-text {
+    flex-direction: column;
+    gap: 5px;
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: white;
+    }
+  }
+  .footer-socials {
+    gap: 26.67px;
+    img {
+      width: 24px;
+    }
+  }
+}
