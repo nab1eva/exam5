@@ -101,7 +101,7 @@ const MyPostsP = () => {
             <div className="myposts-top d-flex align-items-center justify-content-between">
               <h1>My posts</h1>
               <button type="primary" onClick={showModal}>
-                Add post
+                Add
               </button>
             </div>
             <hr />
@@ -135,12 +135,12 @@ const MyPostsP = () => {
                   <Input />
                 </Form.Item>
                 <Form.Item
-                  name={["user", "id"]}
-                  label="ID"
+                  name={["user", "category"]}
+                  label="Category"
                   rules={[
                     {
                       required: true,
-                      message: "Please write ID!",
+                      message: "Please write category!",
                     },
                   ]}
                 >
@@ -158,9 +158,9 @@ const MyPostsP = () => {
                     offset: 8,
                   }}
                 >
-                  <Button type="primary" htmlType="submit">
-                    Submit
-                  </Button>
+                  <button className="btnn" type="submit">
+                    Add Post
+                  </button>
                 </Form.Item>
               </Form>
             </Modal>
